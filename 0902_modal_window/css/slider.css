@@ -1,0 +1,70 @@
+.slider {
+    width: 600px;
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+}
+.item {
+    width: 600px;
+    height: 450px;
+    position: absolute;
+    left: 100%;
+    transition: all 0.4s;
+}
+.item:first-of-type {
+    left: 0;
+}
+.item img {
+    width: 100%;
+}
+.item div {
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: bold;
+    font-size: 1.9em;
+    color: white;
+    text-shadow: 0.05em 0.1em 0.1em rgba(0,0,0, 0.4); 
+}
+.sbtn {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    position: absolute;
+    bottom: 60px;
+    transition: all 0.4s;
+}
+.sbtn:hover {
+    background-color: white;
+    color: black;
+}
+.prev {right: 80px;}
+.next {right: 31px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

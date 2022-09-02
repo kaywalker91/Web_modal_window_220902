@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title>modal window 연습</title>
+        <meta charset="utf-8" />
+        <meta name="author" content="KimDaeGak" />
+        <meta name="description" content="modal window를 통해 새로운 내용에 주목할 수 있도록 팝업창을 만들 수 있다." />
+        <meta name="keywords" content="modal,window,popup,레이어팝업,주목,제한된 공간에 있는 많은 내용을 보여주는 내용,닫기 버튼" />
+        <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+        <link rel="stylesheet" href="style.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <script type="text/javascript">
+
+
+        </script>
+
+    </head>
+
+    <body>
+
+        <h1>신은 죽었다.</h1>
+        <h2>Life is good</h2>
+
+        <button type="button" id="btn1" class="btn" 
+        data-title="버스안에서" 
+        data-font="나도 매일 학교가는 버스안에서
+        항상 같은 자리에 앉아 있는 그앨 좋아해
+        일부러 그녀의 곁에 서보기도 하지만
+        왠지 내가 너무 부족해보여
+        아니야 난 괜찮아 그런 부담갖지마
+        어차피 지금 나도 남자친구 하나 없는데
+        하지만 너는 왜 아무말도 없을까
+        너에게 내가 정말 필요하다는 걸 알아
+        넌 너무 이상적이야 네 눈빛만 보고
+        네게 먼저 말걸어 줄 그런 여자는 없어
+        나도 마찬가지야 이렇게">
+            버스 안에서
+        </button>
+
+        <button type="button" id="btn2" class="btn"
+        data-title="하여가"
+        data-font="너를 볼 때마다 내겐
+        가슴이 떨리는 그 느낌이 있었지
+        난 그냥 네게 나를 던진 거야 예
+        나 홀로 있을때조차
+        너를 기다린다는 설레임에
+        언제나 기쁘게 마음을 가졌던 거야 예">
+            하여가
+        </button>
+
+        <button type="button" id="btn3" class="btn"
+        data-title="롤리폴리"
+        data-font="어디서 오셨나요
+        자꾸 눈이 가네요 그대 눈빛이
+        나는 참 맘에 드네요
+        옆으로 가고 싶지만
+        용기가 안 나서 가슴이 떨려와
+        나는 참 망설이네요">
+            롤리폴리
+        </button>
+
+        <footer></footer>
+
+        <div id = "modal">
+
+            <div id = "modalwin">
+
+                <div id = "modalhead">
+
+                    <p id = "modaltitle">Title</p>
+                    <button type = "button" id = "modalclose">&times;</button>
+
+                </div>
+
+                <div id = "modalbody">
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
